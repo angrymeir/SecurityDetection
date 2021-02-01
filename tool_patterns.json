@@ -1,0 +1,266 @@
+{ "Static/Dynamic Application Security Testing": {
+    "DevSkim": {
+      "Description": "https://github.com/microsoft/DevSkim",
+      "Patterns": [
+        "devskim"
+      ]
+    },
+    "OWASP ZAP": {
+      "Description": "https://www.zaproxy.org",
+      "Patterns": [
+        "zap-"
+      ]
+    },
+    "Coverity": {
+      "Description": "https://scan.coverity.com",
+      "Patterns": [
+        "coverity"
+      ]
+    },
+    "SonarSource": {
+      "Description": "SonarQube, SonarLint, ..., https://www.sonarqube.org, https://www.sonarlint.org",
+      "Patterns": [
+        "sonar ",
+        "sonar_",
+        "sonar:",
+        "sonarcloud"
+      ]
+    },
+    "Dart Analyzer": {
+      "Description": "https://dart.dev/tools/dartanalyzer",
+      "Patterns": [
+        "dartanalyzer"
+      ]
+    },
+    "Application Inspector": {
+      "Description": "https://github.com/microsoft/ApplicationInspector",
+      "Patterns": [
+        "ApplicationInspector"
+      ]
+    },
+    "Bandit": {
+      "Description": "https://github.com/PyCQA/bandit",
+      "Patterns": [
+        "bandit"
+      ]
+    },
+    "CFN NAG": {
+      "Description": "https://github.com/stelligent/cfn_nag",
+      "Patterns": [
+        "cfn_nag",
+        "cfn-nag"
+      ]
+    },
+    "TFSec": {
+      "Description": "https://github.com/liamg/tfsec",
+      "Patterns": [
+        "tfsec"
+      ]
+    },
+    "Arachni": {
+      "Description": "",
+      "Patterns": [
+        "arachni"
+      ]
+    },
+    "CheckStyle": {
+      "Description": "",
+      "Patterns": [
+        "checkstyle"
+      ]
+    },
+    "Reshift": {
+      "Description": "https://docs.reshiftsecurity.com",
+      "Patterns": [
+        "reshift"
+      ]
+    },
+    "Checkmarx": {
+      "Description": "https://www.checkmarx.com",
+      "Patterns": [
+        "checkmarx"
+      ]
+    },
+    "LGTM": {
+      "Description": "https://lgtm.com",
+      "Patterns": [
+        "lgtm"
+      ]
+    },
+    "Brakeman": {
+      "Description": "https://github.com/presidentbeef/brakeman",
+      "Patterns": [
+        "brakeman"
+      ]
+    },
+    "ESLint Security": {
+      "Description": "https://eslint.org",
+      "Patterns": [
+        "eslint-plugin-security"
+      ]
+    },
+    "Phan": {
+      "Description": "https://github.com/phan/phan",
+      "Patterns": [
+        "phan "
+      ]
+    },
+    "PhPstan": {
+      "Description": "https://phpstan.org",
+      "Patterns": [
+        "phpstan"
+      ]
+    },
+    "Qark": {
+      "Description": "https://github.com/linkedin/qark",
+      "Patterns": [
+        "qark"
+      ]
+    },
+    "MobSF": {
+      "Description": "https://github.com/MobSF/Mobile-Security-Framework-MobSF",
+      "Patterns": [
+        "MobSF"
+      ]
+    },
+    "Klocworks": {
+      "Description": "https://www.perforce.com/products/klocwork",
+      "Patterns": [
+        "kwinject",
+        "kwbuildproject",
+        "kwconan"
+      ]
+    },
+    "CodeQL": {
+      "Description": "https://securitylab.github.com/tools/codeql",
+      "Patterns": [
+        "codeql"
+      ]
+    },
+    "Burp": {
+      "Description": "https://portswigger.net/burp",
+      "Patterns": [
+        "BURP_SCAN_URL"
+      ]
+    },
+    "Fortify": {
+      "Description": "https://www.microfocus.com/en-us/solutions/application-security",
+      "Patterns": [
+        "fortifyapi",
+        "fortify "
+      ]
+    },
+    "iblessing": {
+      "Description": "",
+      "Patterns": [
+        "iblessing"
+      ]
+    }
+  },
+  "3rd Party Vulnerability Scanning": {
+    "Anchore": {
+      "Description": "https://github.com/anchore/anchore-engine",
+      "Patterns": [
+        "anchore"
+      ]
+    },
+    "Blackduck": {
+      "Description": "https://www.blackducksoftware.com",
+      "Patterns": [
+        "synopsys",
+        "blackduck"
+      ]
+    },
+    "Whitesource": {
+      "Description": "https://www.whitesourcesoftware.com",
+      "Patterns": [
+        "whitesource"
+      ]
+    },
+    "Snyk": {
+      "Description": "https://snyk.io",
+      "Patterns": [
+        "snyk "
+      ]
+    },
+    "Hakiri": {
+      "Description": "",
+      "Patterns": [
+        "hakiri"
+      ]
+    },
+    "Cyclone DX": {
+      "Description": "https://cyclonedx.org",
+      "Patterns": [
+        "cyclone"
+      ]
+    },
+    "Trivy": {
+      "Description": "https://github.com/aquasecurity/trivy",
+      "Patterns": [
+        "trivy"
+      ]
+    },
+    "Clair": {
+      "Description": "https://github.com/quay/clair",
+      "Patterns": [
+        "clair"
+      ]
+    },
+    "Bundler-Audit": {
+      "Description": "https://github.com/rubysec/bundler-audit",
+      "Patterns": [
+        "bundle-audit"
+      ]
+    },
+    "Node Security Platform": {
+      "Description": "https://github.com/nodesecurity/nsp",
+      "Patterns": [
+        "nsp ",
+        "nsp:",
+        "nsp-"
+      ]
+    },
+    "PHP Security Checker": {
+      "Description": "https://github.com/sensiolabs/security-checker",
+      "Patterns": [
+        "symfony",
+        "security-checker"
+      ]
+    },
+    "Retire.JS": {
+      "Description": "https://github.com/retirejs/retire.js/",
+      "Patterns": [
+        "retire"
+      ]
+    },
+    "Sonatype": {
+      "Description": "https://ossindex.sonatype.org",
+      "Patterns": [
+        "ossindex ",
+        "sonatype ",
+        "sona:"
+      ]
+    },
+    "SRC:CLR": {
+      "Description": "https://app.sourceclear.io",
+      "Patterns": [
+        "srcclr"
+      ]
+    },
+    "Dependabot": {
+      "Description": "https://dependabot.com",
+      "Patterns": [
+        "dependabot"
+      ]
+    }
+  }, 
+  "Unit Test": {
+    "PyTest": {
+      "Description": "https://pytest.org",
+      "Patterns": [
+        "pytest"
+      ]
+    }
+  }
+}
