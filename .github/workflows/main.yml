@@ -1,0 +1,25 @@
+name: Security
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  workflow_dispatch:
+
+jobs:
+  sast:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Bandit Security Scan
+        uses: libertyy/py3-bandit-check@v2
+
+      - name: Upload Bandit Scan Report
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v2
+        with:
+          path: ${{ RUNNER.temp }}/_github_home/bandit_report.out
