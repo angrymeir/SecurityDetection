@@ -8,3 +8,10 @@ Detect tool usage in a project.
 
 ## Demo
 For demo purposes we analyze the following project: https://github.com/angrymeir/server
+
+### Status of Demo
+| Activity | Tool | Activity detected by analyzer | Artifact stored in external repository | Artifact detected by analyzer |
+|:---------|:------|:----------------------------:|:--------------------------------------:|:-----------------------------:|
+| Static Code Analysis | Bandit | X | | |
+| Third Party Library | CycloneDX | X | | |
+| Unit Test | PyTest | X | | |
