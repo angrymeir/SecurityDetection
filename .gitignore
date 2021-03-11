@@ -129,4 +129,4 @@ dmypy.json
 .pyre/
 
 # Custom
-ci_files
+analyzer/ci_files

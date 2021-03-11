@@ -73,7 +73,7 @@ def crawl(g, project):
 
 
 def load_sec_tools():
-    with open('tool_patterns.json', 'r') as infile:
+    with open('../resources/tool_patterns.json', 'r') as infile:
         tools = json.load(infile)
 
     return tools
@@ -95,7 +95,6 @@ def find_sec_tools(ci_files, tool_list):
     return tool_in_project
 
 
-
 def main():
     prepare_environment()
     # Load Variables from .env file
@@ -105,10 +104,11 @@ def main():
     # Crawl and store CI files
     g = authenticate(access_token=os.getenv('ACCESS_TOKEN'))
     ci_files = crawl(g, 'angrymeir/Server')
-    
+
     sec_tools = load_sec_tools()
     tool_in_project = find_sec_tools(ci_files, sec_tools)
     print(tool_in_project)
+
 
 if __name__ == '__main__':
     main()
