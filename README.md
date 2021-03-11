@@ -13,5 +13,5 @@ For demo purposes we analyze the following project: https://github.com/angrymeir
 | Activity | Tool | Activity detected by analyzer | Artifact stored in external repository | Analyzer V1 | Analyzer V2 |
 |:---------|:------|:----------------------------:|:--------------------------------------:|:-----------------------------:|:--------------------:|
 | Static Code Analysis | Bandit | X | | X | X |
-| Third Party Library | CycloneDX | X | | | X |
-| Unit Test | PyTest | X | | | |
+| Third Party Library | CycloneDX | X | | X | X |
+| Unit Test | PyTest | X | | X | |
